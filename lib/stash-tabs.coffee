@@ -18,7 +18,7 @@ module.exports =
 
   unstash: ->
     if @stashedFiles.length > 0
-      atom.workspace.paneContainer.activePane.destroyItems
+      atom.workspace.paneContainer.activePane.destroyItems()
       activeFile = @activeFile
       activeEditor = null
       @stashedFiles.forEach (file) ->
