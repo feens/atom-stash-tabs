@@ -1,0 +1,20 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      {
+        'label': 'Stash Tabs'
+        'submenu': [
+          {
+            'label': 'Stash'
+            'command': 'stash-tabs:stash'
+          },
+          {
+            'label': 'Unstash'
+            'command': 'stash-tabs:unstash'
+          }
+        ]
+      }
+    ]
+  }
+]
