@@ -1,7 +1,7 @@
 {
   "name": "stash-tabs",
   "main": "./lib/stash-tabs",
-  "version": "0.1",
+  "version": "0.0.0",
   "description": "A simple package to your open tabs so you can re-open them later",
   "repository": "https://github.com/feens/atom-stash-tabs",
   "license": "MIT",

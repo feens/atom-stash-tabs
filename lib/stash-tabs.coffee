@@ -3,8 +3,8 @@ module.exports =
   activeFile: null
 
   activate: (state) -> # ...
-    atom.workspaceView.command 'stash-tabs:stash', => @stash()
-    atom.workspaceView.command 'stash-tabs:unstash', => @unstash()
+    atom.commands.add 'atom-workspace', 'stash-tabs:stash', => @stash()
+    atom.commands.add 'atom-workspace', 'stash-tabs:unstash', => @unstash()
 
   stash: ->
     stashedFiles = []
